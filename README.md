@@ -3,3 +3,5 @@
 [![JDK21](https://img.shields.io/badge/JDK-21+-orange?style=for-the-badge)](https://www.oracle.com/java/technologies/downloads/#java21)
 
 Curso para aprender el lenguaje de programación Java y Programación Orientada a Objetos (POO) desde cero y para principiantes.
+
+:smile: :rocket: :heart: <!-- Emojis (GitHub) -->
