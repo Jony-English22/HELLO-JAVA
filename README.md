@@ -1,9 +1,68 @@
-# JAVA POO DESDE CERO
+# 📘 Curso: Java POO desde Cero  
 
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/)
-[![JDK21](https://img.shields.io/badge/JDK-21+-orange?style=for-the-badge)](https://www.oracle.com/java/technologies/downloads/#java21)
+![Java](https://img.shields.io/badge/Java-21-orange?logo=java&logoColor=white)
+![IDE](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-blue?logo=intellij-idea)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Activo-brightgreen)
+
+Bienvenido al repositorio oficial del curso **Java POO desde Cero**.  
+Aquí encontrarás:  
+- 📂 El **temario completo** del curso.  
+- 💻 Archivos de ejemplo y recursos vistos en clase.  
+- 📝 Ejercicios prácticos organizados por temas.  
+- 📁 Una carpeta especial donde cada alumno deberá subir sus propios ejercicios.  
+
+---
+
+## 📂 Estructura del repositorio  
+
+```bash
+HELLO-JAVA/
+│── Temario/              # Documentos del temario
+│── Ejemplos/             # Código de ejemplo visto en clase
+│   └── HolaMundo.java
+│── Ejercicios/           # Ejercicios propuestos por el profesor
+│── Alumnos/              # Carpeta para subir tus ejercicios
+│   ├── Alumno1/
+│   ├── Alumno2/
+│   └── ...
+└── README.md
+
+⚙️ Requisitos
+
+Java Development Kit (JDK) 21 (descarga desde Oracle
+ o OpenJDK
+).
+
+IDE recomendado: IntelliJ IDEA
+, aunque puedes usar cualquier otro (Eclipse, VS Code, NetBeans).
+
+📌 Instrucciones para subir tus ejercicios
+
+Haz un fork de este repositorio en tu cuenta de GitHub.
+
+Clona tu fork en tu computadora:
+
+git clone https://github.com/TU_USUARIO/HELLO-JAVA.git
 
 
-Curso para aprender el lenguaje de programación Java y Programación Orientada a Objetos (POO) desde cero y para principiantes.
+Dentro de la carpeta Alumnos/, crea una carpeta con tu nombre o usuario de GitHub. Ejemplo:
 
-## Temario
+Alumnos/JonathanRuiz/
+
+
+Coloca tus ejercicios en tu carpeta personal. Ejemplo:
+
+Alumnos/JonathanRuiz/HolaMundo.java
+
+
+Haz commit y push a tu repositorio:
+
+git add .
+git commit -m "Agrego mis ejercicios del tema X"
+git push origin main
+
+
+Abre un Pull Request (PR) desde tu fork hacia este repositorio.
+
+El profesor revisará tu PR y dejará comentarios si es necesario. ✅
