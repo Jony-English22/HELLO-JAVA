@@ -17,16 +17,23 @@ Aquí encontrarás:
 ## 📂 Estructura del repositorio  
 
 ```bash
-HELLO-JAVA/
-│── Temario/              # Documentos del temario
-│── Ejemplos/             # Código de ejemplo visto en clase
-│   └── HolaMundo.java
-│── Ejercicios/           # Ejercicios propuestos por el profesor
-│── Alumnos/              # Carpeta para subir tus ejercicios
-│   ├── Alumno1/
-│   ├── Alumno2/
+HELLO-JAVA/              
+│── java-fundamentals/             # 
+│   ├── HelloWorld.java
+│   ├── HelloWorldExercises.java
+│   ├── VariableAndConstants.java
 │   └── ...
+│── exercises/              # Carpeta para subir tus ejercicios
+│   ├── HelloWorld/
+│   │   ├── Jony_English22.java
+│   │   ├── nombredeusuariodegit.java
+│   │   └── ...
+│   ├── Beginner/
+│   └── ...
+├── .gitgnore
+├── LICENSE
 └── README.md
+```
 
 ⚙️ Requisitos
 
