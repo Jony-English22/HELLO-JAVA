@@ -76,24 +76,33 @@ Navega a la carpeta `exercises/` y dentro del tema correspondiente, crea un arch
 exercises/HelloWorld/TuUsuario.java
 ```
 
-### 4️⃣ Escribe tu código
-Desarrolla tu ejercicio siguiendo las instrucciones dadas en clase.
+### 4️⃣ Crea una rama para tu ejercicio
+```
+git checkout -b nombre-de-tu-rama
+```
+> Puedes elegir el nombre que quieras para la rama, por ejemplo: feature/ejercicio-helloworld.
+Esto asegura que no hagas push directamente a main.
 
-### 5️⃣ Sube tus cambios
+### 5️⃣ Escribe tu código
+- Desarrolla tu ejercicio siguiendo las instrucciones dadas en clase.
+
+### 6️⃣Sube tus cambios
 ```bash
 git add .
 git commit -m "Ejercicio HelloWorld - [tu_usuario]"
-git push origin main
+git push origin nombre-de-tu-rama
 ```
+> Asegúrate de reemplazar `nombre-de-tu-rama` por la rama que creaste. 
+Ejemplo: `git push origin feature/ejercicio-helloworld`
 
-### 6️⃣ Crea un Pull Request
+### 7️⃣ Crea un Pull Request
 - Ve a tu repositorio en GitHub
 - Haz clic en **"Pull Request"**
 - Selecciona el repositorio original como destino
 - Agrega un título descriptivo: `Ejercicio [Tema] - [Tu Usuario]`
-- ¡Envía tu PR!
+- Haz clic en Create Pull Request para enviarlo.
 
-### 7️⃣ Revisión
+### 8️⃣ Revisión
 - El profesor revisará tu código
 - Recibirás comentarios y sugerencias
 - Una vez aprobado, tu ejercicio se fusionará al repositorio principal
