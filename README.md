@@ -1,9 +1,9 @@
 # 🚀 Curso: Java POO desde Cero
 
-![Java](https://img.shields.io/badge/Java-21-orange?logo=java&logoColor=white)
-![IDE](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-blue?logo=intellij-idea)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Activo-brightgreen)
+[![Java](https://img.shields.io/badge/JAVA%2021+-FF4444?style=flat-square&logoColor=white&color=FF4444&labelColor=FF4444)](https://www.oracle.com/java/)
+[![IDE](https://img.shields.io/badge/IDE%20IntelliJ-5555FF?style=flat-square&logoColor=white&color=5555FF&labelColor=5555FF)](https://www.jetbrains.com/idea/)
+[![License](https://img.shields.io/badge/License%20MIT-44AA44?style=flat-square&logoColor=white&color=44AA44&labelColor=44AA44)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status%20Activo-FF8800?style=flat-square&logoColor=white&color=FF8800&labelColor=FF8800)](https://github.com/tu-usuario/tu-repositorio)
 
 ¡Bienvenido al repositorio oficial del curso **Java POO desde Cero**! 👨‍💻
 
