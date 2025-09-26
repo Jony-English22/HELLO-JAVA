@@ -131,6 +131,17 @@ public class JonyEnglish22 {
 
 ---
 
+## 📚 Recurso Base Recomendado
+
+### 🎥 [Tutorial Java POO desde Cero](https://youtu.be/JOAqpdM36wI) 
+*Tutorial completo de 8+ horas cubriendo desde fundamentos hasta POO avanzada*
+
+Incluye todos los temas: Variables, Operadores, Strings, Control de flujo, Estructuras, Bucles, Funciones, POO y Excepciones.
+
+> 💡 Excelente recurso de referencia para repasar los temas y resolver dudas.
+
+---
+
 ## 🆘 ¿Necesitas ayuda?
 
 - **🐛 Problemas con Git/GitHub**: Consulta la [documentación de GitHub](https://docs.github.com/)
