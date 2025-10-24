@@ -20,5 +20,17 @@ public class StringsExercises {
         // 9. Comprueba si dos strings son iguales.
 
         // 10. Comprueba si dos strings tienen la misma longitud.
+
+        char letra = 'v';
+        int new_letra = (int) letra;
+        System.out.println(new_letra);
+
+        float as = 12.25f;
+        int new_num = (int) as;
+        System.out.println(new_num);
+
+
+
+
     }
 }
