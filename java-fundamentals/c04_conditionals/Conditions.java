@@ -1,3 +1,5 @@
+package c04_conditionals;
+
 public class Conditions {
 
     public static void main(String[] args) {

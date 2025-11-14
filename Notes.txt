@@ -1,0 +1,152 @@
+# ArraysList
+
+🔹 size()
+
+Devuelve el número de elementos en la lista.
+
+🔹 add(element)
+
+Agrega un elemento al final de la lista.
+
+🔹 get(index)
+
+Obtiene el elemento en la posición indicada.
+
+🔹 getFirst()
+
+Obtiene el primer elemento de la lista (solo disponible en LinkedList).
+
+🔹 getLast()
+
+Obtiene el último elemento de la lista (solo disponible en LinkedList).
+
+🔹 set(index, element)
+
+Modifica el elemento en la posición indicada.
+
+🔹 remove(index)
+
+Elimina el elemento de la posición indicada.
+
+🔹 contains(element)
+
+Devuelve true si el elemento existe en la lista, false si no.
+
+🔹 clear()
+
+Elimina todos los elementos de la lista.
+
+# Set
+
+✔ 1. size()
+
+Devuelve cuántos elementos tiene el conjunto.
+
+✔ 2. add(element)
+
+Agrega un elemento.
+🔸 Si ya existe, NO lo agrega (los Set no permiten duplicados).
+
+✔ 3. remove(element)
+
+Elimina un elemento específico del conjunto.
+
+✔ 4. contains(element)
+
+Devuelve true si el elemento existe en el conjunto.
+
+✔ 5. addAll(otroSet)
+
+Agrega al HashSet todos los elementos de otro conjunto.
+
+⚠ Solo funciona si los tipos coinciden
+(ej. HashSet<String> con HashSet<String>)
+
+✔ 6. removeAll(otroSet)
+
+Elimina todos los elementos que están también en otro conjunto.
+Básicamente:
+👉 names = names – countries
+
+✔ 7. retainAll(otroSet)
+
+Deja solo los elementos que están en ambos conjuntos.
+Es la intersección:
+
+👉 names = names ∩ countries
+
+# Maps
+
+✔ 1. size()
+
+Devuelve cuántas parejas clave–valor tiene el mapa.
+
+🔑 Inserción y Modificación
+✔ 2. put(key, value)
+
+Agrega un par clave → valor.
+Si la clave ya existe, sobrescribe el valor anterior.
+
+✔ 3. replace(key, value)
+
+Reemplaza el valor solo si la clave existe.
+
+✔ 4. putIfAbsent(key, value)
+
+Agrega el valor solo si la clave NO existe.
+
+📥 Acceso
+✔ 5. get(key)
+
+Devuelve el valor asociado a la clave.
+Si la clave NO existe → devuelve null.
+
+🔍 Verificación
+✔ 6. containsKey(key)
+
+Devuelve true si la clave existe en el HashMap.
+
+✔ 7. containsValue(value)
+
+Devuelve true si el valor existe en el HashMap.
+
+❌ Eliminación
+✔ 8. remove(key)
+
+Elimina la clave y devuelve su valor.
+Si no existe → devuelve null.
+
+🧹 Limpieza total
+✔ 9. clear()
+
+Elimina todas las claves y valores del mapa.
+
+📌 Otras operaciones importantes
+✔ 10. isEmpty()
+
+Devuelve true si no tiene ninguna clave–valor.
+
+✔ 11. values()
+
+Devuelve una colección con todos los valores del mapa.
+
+Ejercicios:
+ // 1. Crea un Array con 5 valores e imprime su longitud.
+
+        // 2. Modifica uno de los valores del Array e imprime el valor del índice antes y después de modificarlo.
+
+        // 3. Crea un ArrayList vacío.
+
+        // 4. Añade 4 valores al ArrayList y elimina uno a continuación.
+
+        // 5. Crea un HashSet con 2 valores diferentes.
+
+        // 6. Añade un nuevo valor repetido y otro sin repetir al HashSet.
+
+        // 7. Elimina uno de los elementos del HashSet.
+
+        // 8. Crea un HashMap donde la clave sea un nombre y el valor el número de teléfono. Añade tres contactos.
+
+        // 9. Modifica uno de los contactos y elimina otro.
+
+        // 10. Dado un Array, transfórmalo en un ArrayList, a continuación en un HashSet y finalmente en un HashMap con clave y valor iguales.

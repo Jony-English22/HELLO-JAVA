@@ -23,12 +23,12 @@ Aquí encontrarás todo el material del curso y podrás subir tus ejercicios par
 ```
 HELLO-JAVA/
 ├── java-fundamentals/          # Material y ejemplos del curso
-│   ├── HelloWorld.java
+│   ├── c00_helloworld.HelloWorld.java
 │   ├── Variables.java
 │   ├── Conditionals.java
 │   └── ...
 ├── exercises/                  # 🎯 TUS EJERCICIOS VAN AQUÍ
-│   ├── HelloWorld/
+│   ├── c00_helloworld.HelloWorld/
 │   │   ├── Usuario1.java
 │   │   ├── Usuario2.java
 │   │   └── ...
@@ -71,9 +71,9 @@ cd HELLO-JAVA
 ### 3️⃣ Crea tu carpeta personal
 Navega a la carpeta `exercises/` y dentro del tema correspondiente, crea un archivo con tu nombre de usuario:
 
-**Ejemplo para el tema "HelloWorld":**
+**Ejemplo para el tema "c00_helloworld.HelloWorld":**
 ```
-exercises/HelloWorld/TuUsuario.java
+exercises/c00_helloworld.HelloWorld/TuUsuario.java
 ```
 
 ### 4️⃣ Crea una rama para tu ejercicio
@@ -89,7 +89,7 @@ Esto asegura que no hagas push directamente a main.
 ### 6️⃣Sube tus cambios
 ```bash
 git add .
-git commit -m "Ejercicio HelloWorld - [tu_usuario]"
+git commit -m "Ejercicio c00_helloworld.HelloWorld - [tu_usuario]"
 git push origin nombre-de-tu-rama
 ```
 > Asegúrate de reemplazar `nombre-de-tu-rama` por la rama que creaste. 
@@ -119,7 +119,7 @@ Para mantener el orden, usa estas convenciones:
 
 **Ejemplo:**
 ```java
-// Archivo: exercises/HelloWorld/JonyEnglish22.java
+// Archivo: exercises/c00_helloworld.HelloWorld/JonyEnglish22.java
 public class JonyEnglish22 {
     public static void main(String[] args) {
         System.out.println("¡Hola Mundo!");

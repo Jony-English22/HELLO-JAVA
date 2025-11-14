@@ -1,3 +1,5 @@
+package c02_operators;
+
 public class OperatorsExercises {
     public static void main(String[] args) {
 
