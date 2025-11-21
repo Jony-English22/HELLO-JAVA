@@ -7,7 +7,7 @@ public class Arrays {
         int[] numbers = new int[3];
         System.out.println(numbers);
 
-        String[] names = {"Jonathan", "Ruiz", "Jona22"};
+        String[] names = {"Jonathan", "Ruiz", "Jony-English22"};
         System.out.println(names);
 
         // Acceso
