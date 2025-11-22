@@ -20,6 +20,7 @@ public class Sets {
         names.add("Ruiz");
         names.add("Jony-English22");
         names.add("jonyrp22@gmail.com");
+        names.add("jonathan");
         System.out.println(names.size());
         System.out.println(names);
 
@@ -27,6 +28,7 @@ public class Sets {
         numbers.add(2);
         numbers.add(3);
 
+        System.out.println();
         // Eliminar elementos
 
         names.remove("Jonathan");
@@ -53,7 +55,7 @@ public class Sets {
         countries.add("Brazil");
         countries.add("Jonathan");
 
-        names.addAll(countries);
+        names.addAll(countries); // Combinar Sets
 
         System.out.println(names);
 
@@ -61,10 +63,11 @@ public class Sets {
 
         System.out.println(names);
 
-        names.retainAll(countries);
+        names.retainAll(countries); // Datos comunes
 
         System.out.println(names);
 
 
     }
+
 }

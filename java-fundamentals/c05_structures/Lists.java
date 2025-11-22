@@ -19,6 +19,7 @@ public class Lists {
         names.add("Jonathan");
         names.add("Ruiz");
         names.add("Jony-English22");
+        names.add("Ruiz");
         System.out.println(names.size());
 
         // Acceso
@@ -46,6 +47,10 @@ public class Lists {
         // Limpieza
 
         names.add("Jonathan");
+        names.add("Jonathan");
+        names.add("Jonathan");
+        names.add("Jonathan");
+
         System.out.println(names);
         names.clear();
         System.out.println(names.size());

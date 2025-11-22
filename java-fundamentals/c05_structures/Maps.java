@@ -28,7 +28,6 @@ public class Maps {
         System.out.println(names.get("Dev"));
 
         // Verificar elementos
-
         System.out.println(names.containsKey("Jony"));
         System.out.println(names.containsKey("Dev"));
 
@@ -52,7 +51,7 @@ public class Maps {
         names.put("Jonathan", "jonathanruiz@gmail.com");
         System.out.println(names);
 
-        names.replace("Ruiz", "ruiz@gmail.com"); // Reemplaza el valor si existe
+        names.replace("Ru", "ruiz@gmail.com"); // Reemplaza el valor si existe
         System.out.println(names);
 
         names.putIfAbsent("Ruiz", "ruiz@gmail.com"); //Solo añade si no existe
@@ -63,5 +62,8 @@ public class Maps {
         System.out.println(names.isEmpty());
         var values = names.values();
         System.out.println(values);
+        var key = names.keySet();
+        System.out.println(key);
+
     }
 }
