@@ -1,154 +1,100 @@
 package c06_loops;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 
 public class loops {
-
-    ArrayList<Integer> listaMatriculas = new ArrayList<>();
-    ArrayList<Integer> calParcial1 = new ArrayList<>();
-    ArrayList<Integer> calParcial2 = new ArrayList<>();
-    ArrayList<Integer> calParcial3 = new ArrayList<>();
-    ArrayList<Integer> listaPromedios = new ArrayList<>();
-
-    static Scanner scanner = new Scanner(System.in);
-
     public static void main(String[] args) {
 
-        loops app = new loops();
+        //System.out.println("Hola Mundo");
 
-        int opcion = 0;
+        // - for contralado por contador
+        // Inicio - Condición - Incremento
+        for (int index = 1; index < 5; index++) {
+            System.out.println("Hola Java!");
+        }
 
-        while (opcion != 5) {
+        String[] names = {"Jonathan", "Ruiz", "Jony-English22"};
+        for (int index = 2; index >= 0; index--) {
+            System.out.println(names[index ]);
+        }
 
-            System.out.println("\n--- GESTIÓN DE MATRICULAS ---");
-            System.out.println("1. Agregar nueva matricula");
-            System.out.println("2. Ver toda la lista de calificaciones y matriculas");
-            System.out.println("3. Calcular la calificacion final de una matricula");
-            System.out.println("4. Eliminar matricula");
-            System.out.println("5. Salir del programa");
-            System.out.print("Seleccione una opción: ");
+        System.out.println();
+        // for-each
 
-            try {
-                opcion = scanner.nextInt();
-                scanner.nextLine();
+        for (String n: names) {
+            System.out.println(names);
+        }
 
-                switch (opcion) {
-                    case 1:
-                        app.agregarMatricula();
-                        break;
+        HashSet<String> name = new HashSet<>();
+        var numbers = new HashSet<Integer>();
+        name.add("Jonathan");
+        name.add("Ruiz");
+        name.add("Jony-English22");
+        name.add("jonyrp22@gmail.com");
 
-                    case 2:
-                        app.verLista();
-                        break;
+        for(String nombres: name) {
+            System.out.println(nombres);
+        }
 
-                    case 3:
-                        app.calcularCalificaciones();
-                        break;
+        HashMap<String, String> emails = new HashMap<>();
+        emails.put("Jonathan", "jonathan@gmail.com");
+        emails.put("Ruiz", "ruiz@gmail.com");
+        emails.put("Jony", "jony_english22@gmail.com");
 
-                    case 4:
-                        app.eliminarMatricula();
-                        break;
+        for(Map.Entry<String, String> email: emails.entrySet()) {
+            System.out.println(email.getKey());
+            System.out.println(email.getValue());
+        }
 
-                    case 5:
-                        System.out.println("¡Hasta pronto!");
-                        break;
+        // - while
 
-                    default:
-                        System.out.println("Opción no válida.");
-                }
+        int index = 0;
+        while (index < names.length) {
+            System.out.println(names[index]);
+            index++; // Contador
+        }
 
-            } catch (java.util.InputMismatchException e) {
-                System.out.println("Error: Ingrese solo números.");
-                scanner.nextLine();
-                opcion = 0;
+        index = 0;
+        boolean find = false;
+        while (!find) {
+            System.out.println(names[index]);
+            if (names[index].equals("Jonathan")) {
+                find = true;
             }
+            index++;
         }
 
-        scanner.close();
-    }
+        // do while
+        index = 5;
+        do {
+            // Codigo a repetir
+            System.out.println("Hola, Java!");
+            index++;
+        } while (index < 3);
 
-    // AGREGAR MATRICULA
-    private void agregarMatricula() {
+        // Control de bucles
 
-        System.out.print("Matricula: ");
-        int matri = scanner.nextInt();
+        // - break
 
-        System.out.print("Parcial 1: ");
-        int c1 = scanner.nextInt();
-
-        System.out.print("Parcial 2: ");
-        int c2 = scanner.nextInt();
-
-        System.out.print("Parcial 3: ");
-        int c3 = scanner.nextInt();
-
-        listaMatriculas.add(matri);
-        calParcial1.add(c1);
-        calParcial2.add(c2);
-        calParcial3.add(c3);
-        int promedio = (c1 + c2 + c3) / 3;
-        listaPromedios.add(promedio);
-
-        System.out.println("ÉXITO: La matrícula " + matri + " ha sido agregada.");
-    }
-
-    // VER LISTA
-    private void verLista() {
-        if (listaMatriculas.isEmpty()) {
-            System.out.println("No hay matrículas registradas.");
-            return;
+        for (String nam: names) {
+            if (nam.equals("Jonathan")) {
+                break;
+            }
+            System.out.println(nam);
         }
 
-        System.out.println("\n--- LISTA COMPLETA ---");
-        for (int i = 0; i < listaMatriculas.size(); i++) {
-            System.out.println((i + 1) + ". Matrícula: " + listaMatriculas.get(i)
-                    + " | P1: " + calParcial1.get(i)
-                    + " | P2: " + calParcial2.get(i)
-                    + " | P3: " + calParcial3.get(i)
-                    + " | Promedio: " + listaPromedios.get(i));
+        // - continue
+
+        for (int i = 0; i < 5; i++) {
+            if (i == 3) {
+                continue;
+            }
+            System.out.println(i);
         }
 
-    }
 
-    // CALCULAR CALIFICACIÓN
-    private void calcularCalificaciones() {
 
-        System.out.print("Ingrese matrícula: ");
-        int matri = scanner.nextInt();
-
-        int indice = listaMatriculas.indexOf(matri);
-
-        if (indice == -1) {
-            System.out.println("No existe la matrícula.");
-            return;
-        }
-
-        int promedio = (calParcial1.get(indice)
-                + calParcial2.get(indice)
-                + calParcial3.get(indice)) / 3;
-
-        System.out.println("Promedio final de " + matri + ": " + promedio);
-    }
-
-    // ELIMINAR MATRÍCULA
-    private void eliminarMatricula() {
-
-        System.out.print("Ingrese la matrícula a eliminar: ");
-        int matri = scanner.nextInt();
-
-        int indice = listaMatriculas.indexOf(matri);
-
-        if (indice == -1) {
-            System.out.println("No existe la matrícula.");
-            return;
-        }
-
-        listaMatriculas.remove(indice);
-        calParcial1.remove(indice);
-        calParcial2.remove(indice);
-        calParcial3.remove(indice);
-
-        System.out.println("Matrícula eliminada correctamente.");
     }
 }
